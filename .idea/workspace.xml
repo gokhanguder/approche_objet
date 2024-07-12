@@ -5,7 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7b6b1db7-88ce-4462-9645-d9652366c70f" name="Changes" comment="hello world">
-      <change afterPath="$PROJECT_DIR$/src/main/java/fr/declaration/variable/DeclarationApp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/fr/tableaux/ExerciceTableauChaines.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/fr/tableaux/ExerciseDeclarationTab.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -23,9 +24,9 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 5
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 5
+}</component>
   <component name="ProjectId" id="2j8phvEZsXIZ4Uu2fK57MRNJ6Vk" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -38,19 +39,50 @@
   "keyToString": {
     "ASKED_ADD_EXTERNAL_FILES": "true",
     "Application.DeclarationApp.executor": "Run",
+    "Application.ExerciceTableauChaines.executor": "Run",
+    "Application.ExerciseDeclarationTab.executor": "Run",
     "Application.HelloWorld.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "master",
-    "kotlin-language-version-configured": "true"
+    "kotlin-language-version-configured": "true",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.DeclarationApp">
+  <component name="RunManager" selected="Application.ExerciceTableauChaines">
     <configuration name="DeclarationApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="fr.declaration.variable.DeclarationApp" />
       <module name="approche_objet" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="fr.declaration.variable.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ExerciceTableauChaines" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="fr.tableaux.ExerciceTableauChaines" />
+      <module name="approche_objet" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="fr.tableaux.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ExerciseDeclarationTab" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="fr.tableaux.ExerciseDeclarationTab" />
+      <module name="approche_objet" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="fr.tableaux.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -73,6 +105,8 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ExerciceTableauChaines" />
+        <item itemvalue="Application.ExerciseDeclarationTab" />
         <item itemvalue="Application.DeclarationApp" />
         <item itemvalue="Application.HelloWorld" />
       </list>
