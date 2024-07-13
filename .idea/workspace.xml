@@ -4,13 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7b6b1db7-88ce-4462-9645-d9652366c70f" name="Changes" comment="TP4 - 2. page">
-      <change afterPath="$PROJECT_DIR$/src/main/java/fr/algorithmie/CalculMoyenne.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/fr/algorithmie/ComparaisonTableau.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/fr/algorithmie/RechercheMax.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/fr/algorithmie/RechercheMin.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/fr/algorithmie/SommeDeTableaux.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/fr/algorithmie/SommeDeTableauxDiff.java" afterDir="false" />
+    <list default="true" id="7b6b1db7-88ce-4462-9645-d9652366c70f" name="Changes" comment="TP4 - 3. page">
+      <change afterPath="$PROJECT_DIR$/src/main/java/fr/algorithmie/FirstLast.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/fr/algorithmie/FirstLast6.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/fr/algorithmie/InteractifChiffresSuivants.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/fr/algorithmie/InteractifTableMult.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/fr/algorithmie/InteractifTantQue.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/fr/algorithmie/Rotation.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -51,10 +51,16 @@
     "Application.DeclarationApp.executor": "Run",
     "Application.ExerciceTableauChaines.executor": "Run",
     "Application.ExerciseDeclarationTab.executor": "Run",
+    "Application.FirstLast.executor": "Run",
+    "Application.FirstLast6.executor": "Run",
     "Application.HelloWorld.executor": "Run",
+    "Application.InteractifChiffresSuivants.executor": "Run",
+    "Application.InteractifTableMult.executor": "Run",
+    "Application.InteractifTantQue.executor": "Run",
     "Application.InversionContenu.executor": "Run",
     "Application.RechercheMax.executor": "Run",
     "Application.RechercheMin.executor": "Run",
+    "Application.Rotation.executor": "Run",
     "Application.SommeDeTableaux.executor": "Run",
     "Application.SommeDeTableauxDiff.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
@@ -65,9 +71,9 @@
     "project.structure.side.proportion": "0.0"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.ComparaisonTableau">
-    <configuration name="CalculMoyenne" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="fr.algorithmie.CalculMoyenne" />
+  <component name="RunManager" selected="Application.InteractifChiffresSuivants">
+    <configuration name="FirstLast" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="fr.algorithmie.FirstLast" />
       <module name="approche_objet" />
       <extension name="coverage">
         <pattern>
@@ -79,8 +85,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ComparaisonTableau" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="fr.algorithmie.ComparaisonTableau" />
+    <configuration name="InteractifChiffresSuivants" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="fr.algorithmie.InteractifChiffresSuivants" />
       <module name="approche_objet" />
       <extension name="coverage">
         <pattern>
@@ -92,8 +98,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="RechercheMin" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="fr.algorithmie.RechercheMin" />
+    <configuration name="InteractifTableMult" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="fr.algorithmie.InteractifTableMult" />
       <module name="approche_objet" />
       <extension name="coverage">
         <pattern>
@@ -105,8 +111,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SommeDeTableaux" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="fr.algorithmie.SommeDeTableaux" />
+    <configuration name="InteractifTantQue" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="fr.algorithmie.InteractifTantQue" />
       <module name="approche_objet" />
       <extension name="coverage">
         <pattern>
@@ -118,8 +124,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SommeDeTableauxDiff" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="fr.algorithmie.SommeDeTableauxDiff" />
+    <configuration name="Rotation" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="fr.algorithmie.Rotation" />
       <module name="approche_objet" />
       <extension name="coverage">
         <pattern>
@@ -133,11 +139,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.ComparaisonTableau" />
-        <item itemvalue="Application.SommeDeTableauxDiff" />
-        <item itemvalue="Application.SommeDeTableaux" />
-        <item itemvalue="Application.CalculMoyenne" />
-        <item itemvalue="Application.RechercheMin" />
+        <item itemvalue="Application.InteractifChiffresSuivants" />
+        <item itemvalue="Application.InteractifTableMult" />
+        <item itemvalue="Application.InteractifTantQue" />
+        <item itemvalue="Application.Rotation" />
+        <item itemvalue="Application.FirstLast" />
       </list>
     </recent_temporary>
   </component>
@@ -182,7 +188,15 @@
       <option name="project" value="LOCAL" />
       <updated>1720887783265</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="TP4 - 3. page">
+      <option name="closed" value="true" />
+      <created>1720893691710</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1720893691710</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -191,6 +205,7 @@
     <MESSAGE value="TP3" />
     <MESSAGE value="TP4 - 1 page" />
     <MESSAGE value="TP4 - 2. page" />
-    <option name="LAST_COMMIT_MESSAGE" value="TP4 - 2. page" />
+    <MESSAGE value="TP4 - 3. page" />
+    <option name="LAST_COMMIT_MESSAGE" value="TP4 - 3. page" />
   </component>
 </project>
