@@ -4,9 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7b6b1db7-88ce-4462-9645-d9652366c70f" name="Changes" comment="TP4 - 1 page">
-      <change afterPath="$PROJECT_DIR$/src/main/java/fr/algorithmie/AffichagePartiel.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/fr/algorithmie/InversionContenu.java" afterDir="false" />
+    <list default="true" id="7b6b1db7-88ce-4462-9645-d9652366c70f" name="Changes" comment="TP4 - 2. page">
+      <change afterPath="$PROJECT_DIR$/src/main/java/fr/algorithmie/CalculMoyenne.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/fr/algorithmie/ComparaisonTableau.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/fr/algorithmie/RechercheMax.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/fr/algorithmie/RechercheMin.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/fr/algorithmie/SommeDeTableaux.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/fr/algorithmie/SommeDeTableauxDiff.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -42,11 +46,17 @@
     "Application.AffichageInverse.executor": "Run",
     "Application.AffichagePartiel.executor": "Run",
     "Application.AffichageSuite.executor": "Run",
+    "Application.CalculMoyenne.executor": "Run",
+    "Application.ComparaisonTableau.executor": "Run",
     "Application.DeclarationApp.executor": "Run",
     "Application.ExerciceTableauChaines.executor": "Run",
     "Application.ExerciseDeclarationTab.executor": "Run",
     "Application.HelloWorld.executor": "Run",
     "Application.InversionContenu.executor": "Run",
+    "Application.RechercheMax.executor": "Run",
+    "Application.RechercheMin.executor": "Run",
+    "Application.SommeDeTableaux.executor": "Run",
+    "Application.SommeDeTableauxDiff.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "master",
     "kotlin-language-version-configured": "true",
@@ -55,9 +65,9 @@
     "project.structure.side.proportion": "0.0"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.AffichagePartiel">
-    <configuration name="AffichageIdentite" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="fr.algorithmie.AffichageIdentite" />
+  <component name="RunManager" selected="Application.ComparaisonTableau">
+    <configuration name="CalculMoyenne" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="fr.algorithmie.CalculMoyenne" />
       <module name="approche_objet" />
       <extension name="coverage">
         <pattern>
@@ -69,8 +79,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="AffichageInverse" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="fr.algorithmie.AffichageInverse" />
+    <configuration name="ComparaisonTableau" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="fr.algorithmie.ComparaisonTableau" />
       <module name="approche_objet" />
       <extension name="coverage">
         <pattern>
@@ -82,8 +92,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="AffichagePartiel" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="fr.algorithmie.AffichagePartiel" />
+    <configuration name="RechercheMin" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="fr.algorithmie.RechercheMin" />
       <module name="approche_objet" />
       <extension name="coverage">
         <pattern>
@@ -95,8 +105,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="AffichageSuite" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="fr.algorithmie.AffichageSuite" />
+    <configuration name="SommeDeTableaux" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="fr.algorithmie.SommeDeTableaux" />
       <module name="approche_objet" />
       <extension name="coverage">
         <pattern>
@@ -108,8 +118,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="InversionContenu" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="fr.algorithmie.InversionContenu" />
+    <configuration name="SommeDeTableauxDiff" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="fr.algorithmie.SommeDeTableauxDiff" />
       <module name="approche_objet" />
       <extension name="coverage">
         <pattern>
@@ -123,11 +133,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.AffichagePartiel" />
-        <item itemvalue="Application.InversionContenu" />
-        <item itemvalue="Application.AffichageInverse" />
-        <item itemvalue="Application.AffichageSuite" />
-        <item itemvalue="Application.AffichageIdentite" />
+        <item itemvalue="Application.ComparaisonTableau" />
+        <item itemvalue="Application.SommeDeTableauxDiff" />
+        <item itemvalue="Application.SommeDeTableaux" />
+        <item itemvalue="Application.CalculMoyenne" />
+        <item itemvalue="Application.RechercheMin" />
       </list>
     </recent_temporary>
   </component>
@@ -164,7 +174,15 @@
       <option name="project" value="LOCAL" />
       <updated>1720799880395</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="TP4 - 2. page">
+      <option name="closed" value="true" />
+      <created>1720887783265</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1720887783265</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -172,6 +190,7 @@
     <MESSAGE value="hello world" />
     <MESSAGE value="TP3" />
     <MESSAGE value="TP4 - 1 page" />
-    <option name="LAST_COMMIT_MESSAGE" value="TP4 - 1 page" />
+    <MESSAGE value="TP4 - 2. page" />
+    <option name="LAST_COMMIT_MESSAGE" value="TP4 - 2. page" />
   </component>
 </project>
