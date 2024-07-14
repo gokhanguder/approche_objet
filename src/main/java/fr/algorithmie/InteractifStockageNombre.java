@@ -11,7 +11,7 @@ public class InteractifStockageNombre {
         int[] array = new int[10];
 
         while (true) {
-            System.out.println("Sélectionnez une de ces options! Entre 1 ou 2, svp  \n" +
+            System.out.println("Sélectionnez une de ces options! Entre 1 ou 2, svp : \n" +
                     "1. Ajouter un nombre\n" +
                     "2. Afficher les nombres existants.");
             int nb = scanner.nextInt();

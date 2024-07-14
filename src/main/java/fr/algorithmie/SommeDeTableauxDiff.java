@@ -20,7 +20,7 @@ public class SommeDeTableauxDiff {
             } else
                 array3[i] = array1[i];
         }
-
+        System.out.println("Le tableau qui contient la somme des 2 précédents tableaux :");
         for (int i = 0; i < array3.length; i++) {
             System.out.print(array3[i] + " ");
         }

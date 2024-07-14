@@ -11,7 +11,7 @@ public class SommeDeTableaux {
         for (int i = 0; i < array1.length; i++) {
             array3[i] = array1[i] + array2[i];
         }
-
+        System.out.println("Le tableau qui contient la somme des 2 précédents tableaux :");
         for (int i = 0; i < array3.length; i++) {
             System.out.print(array3[i] + " ");
         }

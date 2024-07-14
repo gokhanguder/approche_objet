@@ -37,6 +37,7 @@ public class Interfactif21Batons {
 
            if (totalNombreBatons <= 0){
                System.out.println("Bravo ! Vous avez gagné !");
+               break;
            }
        } // Close the scanner
         scanner.close();

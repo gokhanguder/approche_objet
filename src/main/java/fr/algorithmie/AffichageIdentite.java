@@ -9,7 +9,7 @@ public class AffichageIdentite {
         identite = "Gokhan";
 
         for (int i = 0; i < 10; i++) {
-            System.out.println(identite);
+            System.out.println( (i+1) + " : " + identite);
         }
     }
 }

@@ -13,7 +13,7 @@ public class InteractifSommeArithmetique {
             nb = scanner.nextInt();
         }
 
-        int som = 0;
+        int som = 1;
         for (int i = 0; i < nb; i++) {
             som = som + i;
         }
