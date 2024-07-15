@@ -25,4 +25,9 @@ public class Compte {
     public double getSoldeCompte() {
         return soldeCompte;
     }
+
+    @Override
+    public String toString() {
+        return "Compte [numeroCompte=" + numeroCompte + ", soldeCompte=" + soldeCompte + "]";
+    }
 }
