@@ -5,9 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7b6b1db7-88ce-4462-9645-d9652366c70f" name="Changes" comment="TP7">
+      <change afterPath="$PROJECT_DIR$/src/main/java/fr/diginamic/banque/TestBanque.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/fr/diginamic/banque/entites/Compte.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/fr/entites/TestPersonne.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/fr/entites/TestPersonne.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/fr/entites2/Personne.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/fr/entites2/Personne.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -87,20 +87,7 @@
     "project.structure.side.proportion": "0.0"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.TestPersonne">
-    <configuration name="RechercheMin" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="fr.algorithmie.RechercheMin" />
-      <module name="approche_objet" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="fr.algorithmie.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.TestBanque">
     <configuration name="Rotation" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="fr.algorithmie.Rotation" />
       <module name="approche_objet" />
@@ -140,6 +127,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="TestBanque" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="fr.diginamic.banque.TestBanque" />
+      <module name="approche_objet" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="fr.diginamic.banque.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="TestPersonne" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="fr.entites.TestPersonne" />
       <module name="approche_objet" />
@@ -155,11 +155,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.TestBanque" />
         <item itemvalue="Application.TestPersonne" />
         <item itemvalue="Application.SommeDeTableauxDiff" />
         <item itemvalue="Application.SommeDeTableaux" />
         <item itemvalue="Application.Rotation" />
-        <item itemvalue="Application.RechercheMin" />
       </list>
     </recent_temporary>
   </component>
@@ -260,7 +260,15 @@
       <option name="project" value="LOCAL" />
       <updated>1721048271017</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="TP7">
+      <option name="closed" value="true" />
+      <created>1721049240947</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1721049240947</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
