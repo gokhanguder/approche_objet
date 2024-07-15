@@ -4,8 +4,8 @@ public class TestAdressePostale {
     public static void main(String[] args) {
 
         // Créer deux instances d'AdressePostale
-        AdressePostale adresse1 = new AdressePostale();
-        AdressePostale adresse2 = new AdressePostale();
+        AdressePostale adresse1 = new AdressePostale(1, "Rue Haute",30900, "Nimes");
+        AdressePostale adresse2 = new AdressePostale(195,"Rue Edmond Carriere", 30900,"Nimes");
 
         adresse1.numeroRue = 1;
         adresse1.libelleRue = "Rue Haute";

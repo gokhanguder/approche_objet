@@ -4,8 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7b6b1db7-88ce-4462-9645-d9652366c70f" name="Changes" comment="TP5 - first draft">
+    <list default="true" id="7b6b1db7-88ce-4462-9645-d9652366c70f" name="Changes" comment="TP5 - second draft">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/fr/entites/AdressePostale.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/fr/entites/AdressePostale.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/fr/entites/TestAdressePostale.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/fr/entites/TestAdressePostale.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/fr/entites/TestPersonne.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/fr/entites/TestPersonne.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/fr/entites2/Personne.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/fr/entites2/Personne.java" afterDir="false" />
     </list>
@@ -244,7 +246,15 @@
       <option name="project" value="LOCAL" />
       <updated>1721035438389</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="TP5 - second draft">
+      <option name="closed" value="true" />
+      <created>1721036867229</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1721036867229</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -258,6 +268,7 @@
     <MESSAGE value="TP4 - 7. page" />
     <MESSAGE value="TP4 - final" />
     <MESSAGE value="TP5 - first draft" />
-    <option name="LAST_COMMIT_MESSAGE" value="TP5 - first draft" />
+    <MESSAGE value="TP5 - second draft" />
+    <option name="LAST_COMMIT_MESSAGE" value="TP5 - second draft" />
   </component>
 </project>
