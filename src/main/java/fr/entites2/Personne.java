@@ -24,30 +24,30 @@ public class Personne {
     }
 
     // Méthode pour modifier le nom
-    public void modifierNom(String nomModifie){
-        this.nom = nomModifie;
+    public void setNom(String nom){
+        this.nom = nom;
     }
 
     // Méthode pour modifier le prénom
-    public void modifierPrenom(String prenomModifie){
-        this.prenom = prenomModifie;
+    public void setPrenom(String prenom){
+        this.prenom = prenom;
     }
 
     // Méthode pour modifier l'adresse
-    public void modifierAdresse(AdressePostale adresseModifiee){
-        this.adresse = adresseModifiee;
+    public void setAdresse(AdressePostale adresse){
+        this.adresse = adresse;
     }
 
     // Méthodes pour retourner les attributs
-    public String retournerNom(){
+    public String getNom(){
         return nom;
     }
 
-    public String retournerPrenom(){
+    public String getPrenom(){
         return prenom;
     }
 
-    public AdressePostale retournerAdresse(){
+    public AdressePostale getAdresse(){
         return adresse;
     }
 
