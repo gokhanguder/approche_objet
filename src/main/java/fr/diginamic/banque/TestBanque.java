@@ -15,14 +15,16 @@ public class TestBanque {
         // Affichez l'instance créée
         System.out.println(compte);
 
-        Object[] list = new Object[2];
-        list[0] = compte;
-        list[1] = compteTaux;
+        Compte[] comptes = new Compte[2];
+        comptes[0] = compte;
+        comptes[1] = compteTaux;
 
-        for (int i = 0; i < list.length; i++) {
-            System.out.println("Compte " + i + " : " +list[i]);
 
+        for (int i = 0; i < comptes.length; i++) {
+            System.out.println("Compte " + i + " : " + comptes[i]);
         }
-
+        for (Compte cpt : comptes) {
+            System.out.println("Compte " + cpt);
+        }
     }
 }

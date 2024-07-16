@@ -9,6 +9,15 @@ public class CompteTaux extends Compte{
         this.tauxRemuneration = tauxRemuneration;
     }
 
+    public double getTauxRemuneration() {
+        return tauxRemuneration;
+    }
+
+    public void setTauxRemuneration(double tauxRemuneration) {
+        this.tauxRemuneration = tauxRemuneration;
+    }
+
+    @Override
     public String toString(){
         return super.toString() + ", tauxRemuneration=" + tauxRemuneration;
     }
