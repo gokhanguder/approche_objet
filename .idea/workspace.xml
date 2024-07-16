@@ -4,7 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7b6b1db7-88ce-4462-9645-d9652366c70f" name="Changes" comment="TP15 - Equals" />
+    <list default="true" id="7b6b1db7-88ce-4462-9645-d9652366c70f" name="Changes" comment="TP15 - Equals">
+      <change afterPath="$PROJECT_DIR$/src/main/java/fr/diginamic/chaines/FusionListe.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/fr/diginamic/chaines/TestVilles.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/fr/diginamic/listes/TestListeString.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -57,6 +62,7 @@
     "Application.ExerciseDeclarationTab.executor": "Run",
     "Application.FirstLast.executor": "Run",
     "Application.FirstLast6.executor": "Run",
+    "Application.FusionListe.executor": "Run",
     "Application.HelloWorld.executor": "Run",
     "Application.InteractifChiffresSuivants.executor": "Run",
     "Application.InteractifFibonacci.executor": "Run",
@@ -75,9 +81,11 @@
     "Application.SommeDeTableauxDiff.executor": "Run",
     "Application.TestBanque.executor": "Run",
     "Application.TestEquals.executor": "Run",
+    "Application.TestListeString.executor": "Run",
     "Application.TestOperation.executor": "Run",
     "Application.TestPersonne.executor": "Run",
     "Application.TestStringBuilder.executor": "Run",
+    "Application.TestVilles.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "master",
     "ignore.virus.scanning.warn.message": "true",
@@ -87,13 +95,13 @@
     "project.structure.side.proportion": "0.0"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.TestEquals">
-    <configuration name="TestBanque" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="fr.diginamic.banque.TestBanque" />
+  <component name="RunManager" selected="Application.TestVilles">
+    <configuration name="FusionListe" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="fr.diginamic.chaines.FusionListe" />
       <module name="approche_objet" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="fr.diginamic.banque.*" />
+          <option name="PATTERN" value="fr.diginamic.chaines.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -114,25 +122,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestOperation" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="fr.diginamic.banque.TestOperation" />
+    <configuration name="TestListeString" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="fr.diginamic.listes.TestListeString" />
       <module name="approche_objet" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="fr.diginamic.banque.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="TestPersonne" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="fr.entites.TestPersonne" />
-      <module name="approche_objet" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="fr.entites.*" />
+          <option name="PATTERN" value="fr.diginamic.listes.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -153,13 +148,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="TestVilles" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="fr.diginamic.chaines.TestVilles" />
+      <module name="approche_objet" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="fr.diginamic.chaines.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.TestVilles" />
+        <item itemvalue="Application.TestListeString" />
+        <item itemvalue="Application.FusionListe" />
         <item itemvalue="Application.TestEquals" />
         <item itemvalue="Application.TestStringBuilder" />
-        <item itemvalue="Application.TestOperation" />
-        <item itemvalue="Application.TestBanque" />
-        <item itemvalue="Application.TestPersonne" />
       </list>
     </recent_temporary>
   </component>
@@ -340,7 +348,15 @@
       <option name="project" value="LOCAL" />
       <updated>1721138293361</updated>
     </task>
-    <option name="localTasksCounter" value="22" />
+    <task id="LOCAL-00022" summary="TP15 - Equals">
+      <option name="closed" value="true" />
+      <created>1721138430036</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1721138430036</updated>
+    </task>
+    <option name="localTasksCounter" value="23" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
