@@ -4,8 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7b6b1db7-88ce-4462-9645-d9652366c70f" name="Changes" comment="TP12">
-      <change afterPath="$PROJECT_DIR$/src/main/java/fr/diginamic/chaines/TestStringBuilder.java" afterDir="false" />
+    <list default="true" id="7b6b1db7-88ce-4462-9645-d9652366c70f" name="Changes" comment="TP13 - StringBuilder">
+      <change afterPath="$PROJECT_DIR$/src/main/java/fr/diginamic/chaines/TestEquals.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/fr/diginamic/chaines/Ville.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -77,6 +78,7 @@
     "Application.SommeDeTableaux.executor": "Run",
     "Application.SommeDeTableauxDiff.executor": "Run",
     "Application.TestBanque.executor": "Run",
+    "Application.TestEquals.executor": "Run",
     "Application.TestOperation.executor": "Run",
     "Application.TestPersonne.executor": "Run",
     "Application.TestStringBuilder.executor": "Run",
@@ -89,13 +91,13 @@
     "project.structure.side.proportion": "0.0"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.TestStringBuilder">
-    <configuration name="SommeDeTableauxDiff" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="fr.algorithmie.SommeDeTableauxDiff" />
+  <component name="RunManager" selected="Application.TestEquals">
+    <configuration name="TestBanque" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="fr.diginamic.banque.TestBanque" />
       <module name="approche_objet" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="fr.algorithmie.*" />
+          <option name="PATTERN" value="fr.diginamic.banque.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -103,12 +105,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestBanque" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="fr.diginamic.banque.TestBanque" />
+    <configuration name="TestEquals" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="fr.diginamic.chaines.TestEquals" />
       <module name="approche_objet" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="fr.diginamic.banque.*" />
+          <option name="PATTERN" value="fr.diginamic.chaines.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -157,11 +159,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.TestEquals" />
         <item itemvalue="Application.TestStringBuilder" />
         <item itemvalue="Application.TestOperation" />
         <item itemvalue="Application.TestBanque" />
         <item itemvalue="Application.TestPersonne" />
-        <item itemvalue="Application.SommeDeTableauxDiff" />
       </list>
     </recent_temporary>
   </component>
@@ -326,7 +328,15 @@
       <option name="project" value="LOCAL" />
       <updated>1721128176240</updated>
     </task>
-    <option name="localTasksCounter" value="20" />
+    <task id="LOCAL-00020" summary="TP13 - StringBuilder">
+      <option name="closed" value="true" />
+      <created>1721135505932</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1721135505932</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -346,6 +356,7 @@
     <MESSAGE value="TP10" />
     <MESSAGE value="TP11" />
     <MESSAGE value="TP12" />
-    <option name="LAST_COMMIT_MESSAGE" value="TP12" />
+    <MESSAGE value="TP13 - StringBuilder" />
+    <option name="LAST_COMMIT_MESSAGE" value="TP13 - StringBuilder" />
   </component>
 </project>
