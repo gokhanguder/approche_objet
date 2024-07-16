@@ -1,6 +1,7 @@
 package fr.diginamic.chaines;
 
 import java.util.ArrayList;
+import java.util.Iterator;
 
 public class TestVilles {
 
@@ -26,27 +27,33 @@ public class TestVilles {
         villes.add(v8);
 
         // Trouver la ville avec le plus grand nombre d'habitants
-        Ville ville1 = new Ville(0, "");
-        for (int i = 0; i < villes.size(); i++) {
-            if (villes.get(i).nbrHabitants > ville1.nbrHabitants) {
-                ville1.nbrHabitants = villes.get(i).nbrHabitants;
-                ville1.nom = villes.get(i).nom;
+        Ville villePlusGrande = villes.get(0);
+        for (Ville ville : villes) {
+            if (ville.getNbrHabitants() > villePlusGrande.getNbrHabitants()) {
+                villePlusGrande = ville;
             }
         }
 
-        System.out.println("\nLa plus grande ville : " + ville1.getNom() + " avec " + ville1.getNbrHabitants() + " habitants");
+        System.out.println("\nLa plus grande ville : " + villePlusGrande.getNom() + " avec " + villePlusGrande.getNbrHabitants() + " habitants");
 
-        // Trouver et supprimer la ville avec le plus petit nombre d'habitants
-        for (int i = 0; i < villes.size(); i++) {
-            if (villes.get(i).nbrHabitants < ville1.nbrHabitants) {
-                ville1.nbrHabitants = villes.get(i).nbrHabitants;
-                ville1.nom = villes.get(i).nom;
-
+        // Trouver la ville avec le plus petit nombre d'habitants
+        Ville villePlusPetite = villes.get(0);
+        for (Ville ville : villes) {
+            if (ville.getNbrHabitants() < villePlusPetite.getNbrHabitants()) {
+                villePlusPetite = ville;
             }
         }
-        System.out.println("\nLa plus petite ville : " + ville1.getNom() + " avec " + ville1.getNbrHabitants() + " habitants");
 
-        villes.remove(ville1);
+        System.out.println("\nLa plus petite ville : " + villePlusPetite.getNom() + " avec " + villePlusPetite.getNbrHabitants() + " habitants");
+
+        // Supprimer la ville avec le plus petit nombre d'habitants en utilisant un Iterator
+        Iterator<Ville> iterator = villes.iterator();
+        while (iterator.hasNext()) {
+            Ville ville = iterator.next();
+            if (ville.equals(villePlusPetite)) {
+                iterator.remove();
+            }
+        }
 
         // Afficher la liste des villes restantes
         System.out.println("\nListe des villes restantes :");
@@ -54,15 +61,15 @@ public class TestVilles {
             System.out.println(ville.getNom() + " avec " + ville.getNbrHabitants() + " habitants");
         }
 
-        //Modifiez les villes de plus de 100 000 habitants en mettant leur nom en majuscules
-        for (int i = 0; i < villes.size(); i++) {
-            if (villes.get(i).getNbrHabitants() > 100000) {
-                villes.get(i).setNom(villes.get(i).getNom().toUpperCase());
+        // Modifier les villes de plus de 100 000 habitants en mettant leur nom en majuscules
+        for (Ville ville : villes) {
+            if (ville.getNbrHabitants() > 100000) {
+                ville.setNom(ville.getNom().toUpperCase());
             }
         }
 
-        // Afficher la liste des villes restantes
-        System.out.println("\nListe des villes - les nom en majuscule pour celui de plus de 100,000 habitants :");
+        // Afficher la liste des villes restantes avec les noms en majuscules pour celles de plus de 100,000 habitants
+        System.out.println("\nListe des villes - les noms en majuscules pour celles de plus de 100,000 habitants :");
         for (Ville ville : villes) {
             System.out.println(ville.getNom() + " avec " + ville.getNbrHabitants() + " habitants");
         }
