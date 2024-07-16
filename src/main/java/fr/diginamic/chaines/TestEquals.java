@@ -28,6 +28,12 @@ public class TestEquals {
         }
 
         // Réinitialiser ville2 et retester avec ==
+        if (ville1 == ville2) {
+            System.out.println(true);
+        } else {
+            System.out.println(false);
+        }
+
         ville2 = ville1;
         if (ville1 == ville2) {
             System.out.println(true);

@@ -4,11 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7b6b1db7-88ce-4462-9645-d9652366c70f" name="Changes" comment="TP13 - StringBuilder">
-      <change afterPath="$PROJECT_DIR$/src/main/java/fr/diginamic/chaines/TestEquals.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/fr/diginamic/chaines/Ville.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="7b6b1db7-88ce-4462-9645-d9652366c70f" name="Changes" comment="TP15 - Equals" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -336,7 +332,15 @@
       <option name="project" value="LOCAL" />
       <updated>1721135505932</updated>
     </task>
-    <option name="localTasksCounter" value="21" />
+    <task id="LOCAL-00021" summary="TP15 - Equals">
+      <option name="closed" value="true" />
+      <created>1721138293361</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1721138293361</updated>
+    </task>
+    <option name="localTasksCounter" value="22" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -357,6 +361,7 @@
     <MESSAGE value="TP11" />
     <MESSAGE value="TP12" />
     <MESSAGE value="TP13 - StringBuilder" />
-    <option name="LAST_COMMIT_MESSAGE" value="TP13 - StringBuilder" />
+    <MESSAGE value="TP15 - Equals" />
+    <option name="LAST_COMMIT_MESSAGE" value="TP15 - Equals" />
   </component>
 </project>
