@@ -28,6 +28,6 @@ public class Compte {
 
     @Override
     public String toString() {
-        return "Compte [numeroCompte=" + numeroCompte + ", soldeCompte=" + soldeCompte + "]";
+        return "numeroCompte=" + numeroCompte + ", soldeCompte=" + soldeCompte ;
     }
 }
