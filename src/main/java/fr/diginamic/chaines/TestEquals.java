@@ -19,7 +19,7 @@ public class TestEquals {
         }
 
         // Modifier un attribut et retester equals
-        ville2.setNbrHabitants(40000);
+        ville2.setPopulation(40000);
 
         if (ville1.equals(ville2)) {
             System.out.println(true);

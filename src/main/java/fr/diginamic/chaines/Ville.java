@@ -1,12 +1,23 @@
 package fr.diginamic.chaines;
 
+import fr.diginamic.testenumeration.Continent;
+
 public class Ville implements Comparable<Ville>{
 
-    public String nom;
-    public int nbrHabitants;
+    private String nom;
+    private int population;
+    private Continent continent;
 
-    public Ville(int nbrHabitants, String nom) {
-        this.nbrHabitants = nbrHabitants;
+    // Constructeur
+    public Ville(int population, String nom, Continent continent) {
+        this.population = population;
+        this.nom = nom;
+        this.continent = continent;
+    }
+
+    // Constructeur
+    public Ville(int population, String nom) {
+        this.population = population;
         this.nom = nom;
     }
 
@@ -18,12 +29,19 @@ public class Ville implements Comparable<Ville>{
         this.nom = nom;
     }
 
-    public int getNbrHabitants() {
-        return nbrHabitants;
+    public int getPopulation() {
+        return population;
     }
 
-    public void setNbrHabitants(int nbrHabitants) {
-        this.nbrHabitants = nbrHabitants;
+    public void setPopulation(int population) {
+        this.population = population;
+    }
+
+    public Continent getContinent() {
+        return continent;
+    }
+    public void setContinent(Continent continent) {
+        this.continent = continent;
     }
 
     @Override
@@ -35,20 +53,22 @@ public class Ville implements Comparable<Ville>{
             return false;
         }
         Ville ville = (Ville) obj;
-        return nbrHabitants == ville.nbrHabitants && nom.equals(ville.nom);
+        return population == ville.population && nom.equals(ville.nom);
     }
 
     // Méthode compareTo pour trier par nombre d'habitants
     @Override
     public int compareTo(Ville autreVille) {
-        return Integer.compare(this.nbrHabitants, autreVille.nbrHabitants);
+        return Integer.compare(this.population, autreVille.population);
     }
 
+    // Méthode toString pour afficher les informations de la ville
     @Override
     public String toString() {
         return "Ville{" +
                 "nom='" + nom + '\'' +
-                ", population=" + nbrHabitants +
+                ", population=" + population +
+                ", continent=" + continent.getLibelle() +
                 '}';
     }
 }
