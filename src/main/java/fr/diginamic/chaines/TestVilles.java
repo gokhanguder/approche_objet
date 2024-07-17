@@ -1,30 +1,21 @@
 package fr.diginamic.chaines;
 
-import java.util.ArrayList;
-import java.util.Iterator;
+import java.util.*;
 
 public class TestVilles {
 
     public static void main(String[] args) {
 
-        Ville v1 = new Ville(343000, "Nice");
-        Ville v2 = new Ville(47800, "Carcassonne");
-        Ville v3 = new Ville(53400, "Narbonne");
-        Ville v4 = new Ville(484000, "Lyon");
-        Ville v5 = new Ville(9700, "Foix");
-        Ville v6 = new Ville(77200, "Pau");
-        Ville v7 = new Ville(850700, "Marseille");
-        Ville v8 = new Ville(40600, "Tarbes");
-
-        ArrayList<Ville> villes = new ArrayList<>();
-        villes.add(v1);
-        villes.add(v2);
-        villes.add(v3);
-        villes.add(v4);
-        villes.add(v5);
-        villes.add(v6);
-        villes.add(v7);
-        villes.add(v8);
+        ArrayList<Ville> villes = new ArrayList<>(Arrays.asList(
+                new Ville(343000, "Nice"),
+                new Ville(47800, "Carcassonne"),
+                new Ville(53400, "Narbonne"),
+                new Ville(484000, "Lyon"),
+                new Ville(9700, "Foix"),
+                new Ville(77200, "Pau"),
+                new Ville(850700, "Marseille"),
+                new Ville(40600, "Tarbes")
+        ));
 
         // Trouver la ville avec le plus grand nombre d'habitants
         Ville villePlusGrande = villes.get(0);
@@ -72,6 +63,22 @@ public class TestVilles {
         System.out.println("\nListe des villes - les noms en majuscules pour celles de plus de 100,000 habitants :");
         for (Ville ville : villes) {
             System.out.println(ville.getNom() + " avec " + ville.getNbrHabitants() + " habitants");
+        }
+
+        // Trier la liste des villes par nom
+        Collections.sort(villes, Comparator.comparing(Ville::getNom));
+        System.out.println("\nVilles triées par nom:");
+        for (Ville ville : villes) {
+            System.out.println(ville);
+        }
+
+        // Trier la liste des villes par population
+        Collections.sort(villes);
+
+        // Afficher les résultats
+        System.out.println("\nLa liste des villes en ordre par population :");
+        for (Ville ville : villes) {
+            System.out.println(ville);
         }
     }
 }

@@ -1,6 +1,6 @@
 package fr.diginamic.chaines;
 
-public class Ville {
+public class Ville implements Comparable<Ville>{
 
     public String nom;
     public int nbrHabitants;
@@ -36,5 +36,19 @@ public class Ville {
         }
         Ville ville = (Ville) obj;
         return nbrHabitants == ville.nbrHabitants && nom.equals(ville.nom);
+    }
+
+    // Méthode compareTo pour trier par nombre d'habitants
+    @Override
+    public int compareTo(Ville autreVille) {
+        return Integer.compare(this.nbrHabitants, autreVille.nbrHabitants);
+    }
+
+    @Override
+    public String toString() {
+        return "Ville{" +
+                "nom='" + nom + '\'' +
+                ", population=" + nbrHabitants +
+                '}';
     }
 }
